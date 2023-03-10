@@ -1,0 +1,37 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+.title
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.entry
+{
+
+}
+
+.date
+{
+	font-style: italic;
+	font-size: 12px;
+	color: gray;
+	margin-top: 10px;
+}
+
+div#entryDiv
+{
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 1;
+	margin-left: 1%;
+	border-style: groove;
+	background-color:aquamarine;
+}
