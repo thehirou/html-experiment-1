@@ -4,6 +4,18 @@
 	padding:0px;
 }
 
+body
+{
+	background-image: url('circles.bmp');
+	background-repeat: repeat;
+}
+
+.menu
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
 .title
 {
 	font-weight: bold;
@@ -24,6 +36,14 @@
 	margin-top: 10px;
 }
 
+.banner
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 22px;
+	color: black;
+}
+
 div#entryDiv
 {
 	width: 50%;
@@ -34,4 +54,45 @@ div#entryDiv
 	margin-left: 1%;
 	border-style: groove;
 	background-color:aquamarine;
+}
+
+div#topPage
+{
+	width: 30%;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 1;
+	margin-left: 1%;
+	border-style: groove;
+	background-color:rgb(226, 207, 99);
+}
+
+div#entryPages
+{
+	/* background-color:yellow; */
+}
+
+div#divBody
+{
+	width: 40%;
+	margin: 0 auto;
+	/* background-color:yellow; */
+}
+
+div#menuDiv
+{
+	width: 150px;
+	height: auto;
+	padding: 10px;
+	line-height: 1;
+	float: right;
+	background-color:gainsboro;
+	margin-right: 1%;
+	border-style: groove;
+}
+
+div#separator
+{
+width: 100%;
+height: 20px;
 }
