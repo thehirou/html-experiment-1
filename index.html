@@ -40,7 +40,17 @@
             <p class="entry">
             Yesterday I also woke up!!!!
             </p>
-    
+            <div id="separatorHalf"> </div>
+            <script>
+                function play() {
+                  var audio = document.getElementById("audio");
+                  audio.play();
+                }
+            </script>
+          
+            <input type="button" value="Press me!" onclick="play()">
+            <audio id="audio" src="honk.wav"></audio>
+
             <p class="date">09/03/2023</p>
         </div>
 
@@ -78,6 +88,9 @@
         <div id="entryDiv"><p class="title">Test Title!</p><p class="entry">Test entry!!!!</p><p class="date">test/date/lol</p></div>
         <div id="entryDiv"><p class="title">Test Title!</p><p class="entry">Test entry!!!!</p><p class="date">test/date/lol</p></div>
         <div id="entryDiv"><p class="title">Test Title!</p><p class="entry">Test entry!!!!</p><p class="date">test/date/lol</p></div>
+
+
+      
 
         <!-- END OF ENTRIES -->
         <div id="separator"> </div>
